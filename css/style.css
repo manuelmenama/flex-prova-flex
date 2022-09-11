@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.debug{
+    background-color: rgba(200, 50, 200, 0.25);
+    border: 1px solid black;
+}
+
+.container{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.top h1,
+.top p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.row{
+    display: flex;
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+    
+}
+
+.column{
+    padding: 10px;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+
+.info span{
+    display: block;
+}
+
+.card{
+    min-width: 340px;
+    background-color: blueviolet;
+    display: flex;
+}
+
